@@ -18,13 +18,18 @@
     flex-direction: row;
 }
 
-.col {
+/* Definizione colonne */
+
+.row>[class^='col'] {
     flex-basis: auto;
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 0;
 }
 
-/* Definizione colonne */
+.row>.col {
+    flex-grow: 1;
+    max-width: 100%;
+}
 
 .row>.col-12 {
     flex-basis: 100%;
