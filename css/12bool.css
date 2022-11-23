@@ -161,7 +161,17 @@
 
 /*! Responsive */
 
-/* Viewport Small */
+/* 
+Breakpoint Mobile-first
+xs: standard
+sm: 576px
+md: 768px
+lg: 992px
+xl: 1200px
+xxl: 1400px
+*/
+
+/*# Viewport Small */
 
 @media screen and (min-width:576px) {
 
@@ -295,7 +305,7 @@
 
 }
 
-/* Viewport Medium */
+/*# Viewport Medium */
 
 @media screen and (min-width:768px) {
 
@@ -429,7 +439,7 @@
 
 }
 
-/* Viewport Large */
+/*# Viewport Large */
 
 @media screen and (min-width:992px) {
 
@@ -563,7 +573,7 @@
 
 }
 
-/* Viewport Extra Large */
+/*# Viewport Extra Large */
 
 @media screen and (min-width:1200px) {
 
@@ -697,7 +707,7 @@
 
 }
 
-/* Viewport Extra Extra Large */
+/*# Viewport Extra Extra Large */
 
 @media screen and (min-width:1400px) {
 
