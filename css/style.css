@@ -1,3 +1,7 @@
+body>.row {
+    margin-bottom: 30px;
+}
+
 .row {
     text-align: center;
     color: white;
@@ -6,6 +10,7 @@
 .row>[class^='col'] {
     border: 1px solid white;
     background-color: rgb(0, 108, 250);
+    min-height: 50px;
     line-height: 30px;
     padding: 10px;
 }
